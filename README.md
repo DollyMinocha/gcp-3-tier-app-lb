@@ -8,11 +8,10 @@ This example creates an HTTPS load balancer to forward traffic to a custom URL m
 
 ![architecture diagram](https://raw.githubusercontent.com/GoogleCloudPlatform/terraform-google-lb-http/master/examples/multi-backend-multi-mig-bucket-https-lb/diagram.png)
 
-## Change to the example directory
-
-```
-[[ `basename $PWD` != multi-backend-multi-mig-bucket-https-lb ]] && cd examples/multi-backend-multi-mig-bucket-https-lb/
-```
+## Open Google Console and login
+## Activate Cloud Shell
+When you are connected, you are already authenticated, and the project is set to your PROJECT_ID. The output contains a line that declares the PROJECT_ID for this session
+Open Google Shell Editor and upload all the files and the folders. 
 
 ## Install Terraform
 
